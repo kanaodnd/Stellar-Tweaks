@@ -1,25 +1,25 @@
 # ✨ Stellar Tweaks 
-*A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~*  
+*A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~*
 
 <div align="center">
-  <img src="https://github.com/kanaodnd/kanaokturu/raw/main/a740af124b50737a86e4c4782ed9c4c7.jpg" alt="Stellar Banner" width="100%" style="border-radius: 6px;">
+  <img src="https://github.com/kanaodnd/kanaokturu/raw/main/a740af124b50737a86e4c4782ed9c4c7.jpg" alt="Stellar Banner" width="100%" style="border-radius: 8px;">
   <br><br>
 
   <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
-    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?color=6f42c1&labelColor=0D1117&style=flat-square&logo=github" alt="Release">
+    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat&color=7050ff&labelColor=24292e&logo=github&logoColor=white" alt="Latest Release">
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-6f42c1?style=flat-square&logo=apache&logoColor=white&labelColor=0D1117" alt="License">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat&color=007bff&labelColor=24292e&logo=apache&logoColor=white" alt="License">
   </a>
-  <img src="https://img.shields.io/badge/Language-Rust-orange?style=flat-square&logo=rust&logoColor=white&labelColor=0D1117" alt="Rust">
+  <img src="https://img.shields.io/badge/Code-Rust-orange?style=flat&color=ff7f50&labelColor=24292e&logo=rust&logoColor=white" alt="Written in Rust">
 
-  <br><br>
+  <br>
 
   <a href="https://t.me/hosshi_prjkt">
-    <img src="https://img.shields.io/badge/Join-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=0D1117" alt="Channel">
+    <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=flat&color=26A5E4&labelColor=24292e&logo=telegram&logoColor=white" alt="Channel">
   </a>
   <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/Join-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=0D1117" alt="Group">
+    <img src="https://img.shields.io/badge/Telegram-Group-blue?style=flat&color=26A5E4&labelColor=24292e&logo=telegram&logoColor=white" alt="Group">
   </a>
 </div>
 
@@ -31,7 +31,7 @@
 
 ## Key Features
 
-Stellar provides granular control over system parameters through its active daemon and WebUI interface.
+Stellar provides granular control over system parameters through its active daemon and modern WebUI interface.
 
 ### Core Capabilities
 * **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
@@ -39,17 +39,29 @@ Stellar provides granular control over system parameters through its active daem
 * **Specific Device System Constant:** Optimized property values tailored for system responsiveness.
 * **DVFS Custom Rule:** Userspace-controlled Dynamic Voltage and Frequency Scaling for precise thermal and performance management.
 * **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
-* **Governor Custom:** Optimization of CPU governor parameters for better efficient step-scaling.
+* **Governor Custom:** Optimization of CPU governor parameters for efficient step-scaling.
 
 ### AI Driven 3 Profiler
 Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
 
 1.  **GAMING**
-    * Prioritizes sustained performance, stabilizes FPS, and minimizes jitter.
+    * Prioritizes sustained performance, stabilizes FPS, and minimizes jitter for competitive gameplay.
 2.  **POWERSAVER**
-    * Maximizes battery life by limiting background activities and clock speeds during inactivity.
+    * Maximizes battery life by aggressively limiting background activities and clock speeds during inactivity.
 3.  **BALANCE**
-    * The optimal middle ground for daily usage, scaling up only when necessary.
+    * The optimal middle ground for daily usage, scaling performance up instantaneously only when necessary.
+
+---
+
+## UI Preview
+
+Experience a modern and intuitive control panel designed for ease of use.
+
+<div align="center">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260123_204214_AxManager.jpg" height="350" alt="Dashboard UI" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_195618_AxManager.jpg" height="350" alt="Settings UI" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_193835_WebUI%20X.jpg" height="350" alt="WebUI X" style="border-radius: 8px; margin: 5px;">
+</div>
 
 ---
 
@@ -59,8 +71,8 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 
 | Environment | Supported Managers | Capability Level |
 | :--- | :--- | :--- |
-| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors) |
-| **Non-Root** | • Axeron Manager | **User-space Optimization**<br>(AI Engine, UI Customization, Properties) |
+| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors, Bypass Charging) |
+| **Non-Root** | • Axeron Manager | **User-space Optimization**<br>(AI Engine, UI Customization, System Properties) |
 
 ---
 
@@ -83,6 +95,6 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 <div align="center">
   <p>If you find this project useful, consider supporting the development.</p>
   <a href="https://github.com/kanaodnd/DonateMePls">
-    <img src="https://img.shields.io/badge/Support-Donate-FF4D4D?style=flat-square&logo=ko-fi&logoColor=white&labelColor=0D1117" alt="Donate">
+    <img src="https://img.shields.io/badge/Support-Donate-FF4D4D?style=flat&logo=ko-fi&logoColor=white&labelColor=24292e" alt="Donate">
   </a>
 </div>
