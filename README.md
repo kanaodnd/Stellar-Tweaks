@@ -2,55 +2,87 @@
 *A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~*  
 
 <div align="center">
-<img src="https://github.com/kanaodnd/kanaokturu/raw/main/a740af124b50737a86e4c4782ed9c4c7.jpg" alt="Gambar">
+  <img src="https://github.com/kanaodnd/kanaokturu/raw/main/a740af124b50737a86e4c4782ed9c4c7.jpg" alt="Stellar Banner" width="100%" style="border-radius: 6px;">
+  <br><br>
+
+  <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
+    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?color=6f42c1&labelColor=0D1117&style=flat-square&logo=github" alt="Release">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-6f42c1?style=flat-square&logo=apache&logoColor=white&labelColor=0D1117" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/Language-Rust-orange?style=flat-square&logo=rust&logoColor=white&labelColor=0D1117" alt="Rust">
+
+  <br><br>
+
+  <a href="https://t.me/hosshi_prjkt">
+    <img src="https://img.shields.io/badge/Join-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=0D1117" alt="Channel">
+  </a>
+  <a href="https://t.me/hosshi_chat">
+    <img src="https://img.shields.io/badge/Join-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=0D1117" alt="Group">
+  </a>
 </div>
+
+---
+
+## Overview
+
+**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust daemon**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+
+## Key Features
+
+Stellar provides granular control over system parameters through its active daemon and WebUI interface.
+
+### Core Capabilities
+* **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
+* **CPU/GPU Clocking:** Dynamic frequency management to prevent throttling and ensure stability.
+* **Specific Device System Constant:** Optimized property values tailored for system responsiveness.
+* **DVFS Custom Rule:** Userspace-controlled Dynamic Voltage and Frequency Scaling for precise thermal and performance management.
+* **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
+* **Governor Custom:** Optimization of CPU governor parameters for better efficient step-scaling.
+
+### AI Driven 3 Profiler
+Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
+
+1.  **GAMING**
+    * Prioritizes sustained performance, stabilizes FPS, and minimizes jitter.
+2.  **POWERSAVER**
+    * Maximizes battery life by limiting background activities and clock speeds during inactivity.
+3.  **BALANCE**
+    * The optimal middle ground for daily usage, scaling up only when necessary.
+
+---
+
+## Supported Environments
+
+Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments with varying degrees of control.
+
+| Environment | Supported Managers | Capability Level |
+| :--- | :--- | :--- |
+| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors) |
+| **Non-Root** | • Axeron Manager | **User-space Optimization**<br>(AI Engine, UI Customization, Properties) |
+
+---
+
+## Installation
+
+1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
+2.  **Install** via your preferred manager:
+    * *Root Users:* Flash the `.zip` file in Magisk/KSU/APatch app.
+    * *Non-Root Users:* Import the module into Axeron Manager.
+3.  **Reboot** your device to initialize the daemon.
+4.  **Access** the dashboard via the WebUI or manager interface to configure your profiles.
+
+---
+
+## Community & Support
+
+* **Bug Reports:** Please submit issues via [GitHub Issues](https://github.com/kanaodnd/Stellar-Tweaks/issues).
+* **Discussion:** Join our Telegram group for support and feature requests.
 
 <div align="center">
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-6f42c1?style=for-the-badge&logo=apache&logoColor=white&labelColor=0D1117)](LICENSE) 
-[![Release](https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?color=6f42c1&labelColor=0D1117&style=for-the-badge&logo=github)](https://github.com/kanaodnd/Stellar-Tweaks/releases)
-
+  <p>If you find this project useful, consider supporting the development.</p>
+  <a href="https://github.com/kanaodnd/DonateMePls">
+    <img src="https://img.shields.io/badge/Support-Donate-FF4D4D?style=flat-square&logo=ko-fi&logoColor=white&labelColor=0D1117" alt="Donate">
+  </a>
 </div>
-
-
-## Join the community
-*New at this? don't worry you can certain ask in the our community below!*
-
-[![Channel](https://img.shields.io/badge/CHANNEL-@hosshi__prjkt-9cf?style=for-the-badge&logo=telegram&logoColor=white&color=26A5E4)](https://t.me/hosshi_prjkt)
-[![Group](https://img.shields.io/badge/GROUP-Discussions-9cf?style=for-the-badge&logo=telegram&logoColor=white&color=26A5E4)](https://t.me/hosshi_chat)
-
-## What is Stellar Tweaks?
-A Scheduler That Maintain `Performance CPU`, Unlock Potentional CPU, But keeps battery in good health and Battery backup. AIO (All-In-One) See Advanced Performance at Your Choose.
-Android kernel parameters with multiple profiles for `Snapdragon`, `Mediatek`, `Exynos`. Even `Unisoc`, Or even Socs that you don't recognize.
-
-<div align="center">
-  <img width="160" src="https://github.com/kanaodnd/kanaokturu/blob/main/0548dd4afa665874c0c568fe5c189bda.gif" alt="Stellar Demo">
-</div>
-
-
-
-## Bug report?
-*Report in Telegram group or You can pull issues in below*
-
-[![Bug](https://img.shields.io/badge/REPORT-Bug-9cf?style=for-the-badge&logo=github&logoColor=white&color=FF4D4D)](https://github.com/kanaodnd/Stellar-Tweaks/issues)
-
-
-
-## Download 
-
-[![Download](https://img.shields.io/badge/GET-RELEASE-9cf?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/kanaodnd/Stellar-Tweaks/releases)
-[![Download](https://img.shields.io/badge/GET-RELEASE-9cf?style=for-the-badge&logo=github&logoColor=white&color=181717)](https://github.com/kanaodnd/Stellar-Tweaks/releases)
-
-
-## Donate? 
-*Wow, you are a generous person who want this update continue, thank you!*
-
-[![Donate](https://img.shields.io/badge/Support-Our_Project-6f42c1?style=for-the-badge&logo=heart&logoColor=white&labelColor=0D1117)](https://github.com/kanaodnd/DonateMePls)
-
-
-
-## Main effect highlights
-```bash
-1 - More faster? or more Saving battery?
-2 - Just flash and see, not again complicated!
-3 - The performance you need, no need to confuse!
