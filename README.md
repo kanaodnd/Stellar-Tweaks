@@ -27,7 +27,7 @@
 
 ## Overview
 
-**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust daemon**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
 
 ## Key Features
 
@@ -80,10 +80,9 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 
 1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
 2.  **Install** via your preferred manager:
-    * *Root Users:* Flash the `.zip` file in Magisk/KSU/APatch app.
-    * *Non-Root Users:* Import the module into Axeron Manager.
-3.  **Reboot** your device to initialize the daemon.
-4.  **Access** the dashboard via the WebUI or manager interface to configure your profiles.
+    * *Root/NonRoot Users:* Flash the `.zip` file in Magisk/KSU/APatch/Axeron app.
+3.  **Reboot** your device to initialize the daemon. **NonRoot** no need to reboot.
+5.  **Access** the dashboard via the WebUI or manager interface to configure your profile.
 
 ---
 
