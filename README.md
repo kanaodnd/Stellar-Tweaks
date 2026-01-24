@@ -55,9 +55,9 @@ Stellar utilizes an intelligent engine to switch between three distinct modes ba
 
 ## UI Preview
 
-Experience a modern and intuitive control panel designed for ease of use.
+Experience a modern material you and intuitive control panel designed for ease of use.
 
-### Root Environment
+### Root Environment (Magisk/KernelSU/APatch)
 <div align="center">
   <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260123_204214_AxManager.jpg" height="300" alt="Root Dashboard" style="border-radius: 8px; margin: 3px;">
   <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_195618_AxManager.jpg" height="300" alt="Root Settings" style="border-radius: 8px; margin: 3px;">
@@ -69,13 +69,7 @@ Experience a modern and intuitive control panel designed for ease of use.
 ### Non-Root Environment (Axeron)
 <div align="center">
   <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" height="300" alt="NonRoot UI 1" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" height="300" alt="NonRoot UI 2" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091754_AxManager.jpg" height="300" alt="NonRoot UI 3" style="border-radius: 8px; margin: 3px;">
-  <br>
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091812_AxManager.jpg" height="300" alt="NonRoot UI 4" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091824_AxManager.jpg" height="300" alt="NonRoot UI 5" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091838_AxManager.jpg" height="300" alt="NonRoot UI 6" style="border-radius: 8px; margin: 3px;">
-</div>
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" height="300" alt="NonRoot UI 2" style="border-radius: 8px; margin: 3px;"></div>
 
 ---
 
