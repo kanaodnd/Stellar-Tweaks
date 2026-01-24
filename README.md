@@ -6,20 +6,20 @@
   <br><br>
 
   <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
-    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat&color=7050ff&labelColor=24292e&logo=github&logoColor=white" alt="Latest Release">
+    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=for-the-badge&color=7050ff&labelColor=1a1b26&logo=github&logoColor=white" alt="Latest Release">
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat&color=007bff&labelColor=24292e&logo=apache&logoColor=white" alt="License">
+    <img src="https://img.shields.io/badge/LICENSE-APACHE--2.0-blue?style=for-the-badge&color=007bff&labelColor=1a1b26&logo=apache&logoColor=white" alt="License">
   </a>
-  <img src="https://img.shields.io/badge/Code-Rust-orange?style=flat&color=ff7f50&labelColor=24292e&logo=rust&logoColor=white" alt="Written in Rust">
+  <img src="https://img.shields.io/badge/WRITTEN_IN-RUST-orange?style=for-the-badge&color=ff7f50&labelColor=1a1b26&logo=rust&logoColor=white" alt="Written in Rust">
 
   <br>
 
   <a href="https://t.me/hosshi_prjkt">
-    <img src="https://img.shields.io/badge/Telegram-Channel-blue?style=flat&color=26A5E4&labelColor=24292e&logo=telegram&logoColor=white" alt="Channel">
+    <img src="https://img.shields.io/badge/TELEGRAM-CHANNEL-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Channel">
   </a>
   <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/Telegram-Group-blue?style=flat&color=26A5E4&labelColor=24292e&logo=telegram&logoColor=white" alt="Group">
+    <img src="https://img.shields.io/badge/TELEGRAM-GROUP-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Group">
   </a>
 </div>
 
@@ -27,7 +27,7 @@
 
 ## Overview
 
-**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust daemon**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
 
 ## Key Features
 
@@ -57,10 +57,24 @@ Stellar utilizes an intelligent engine to switch between three distinct modes ba
 
 Experience a modern and intuitive control panel designed for ease of use.
 
+### Root Environment
 <div align="center">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260123_204214_AxManager.jpg" height="350" alt="Dashboard UI" style="border-radius: 8px; margin: 5px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_195618_AxManager.jpg" height="350" alt="Settings UI" style="border-radius: 8px; margin: 5px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_193835_WebUI%20X.jpg" height="350" alt="WebUI X" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260123_204214_AxManager.jpg" height="300" alt="Root Dashboard" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_195618_AxManager.jpg" height="300" alt="Root Settings" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_193835_WebUI%20X.jpg" height="300" alt="Root WebUI" style="border-radius: 8px; margin: 3px;">
+</div>
+
+<br>
+
+### Non-Root Environment (Axeron)
+<div align="center">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" height="300" alt="NonRoot UI 1" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" height="300" alt="NonRoot UI 2" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091754_AxManager.jpg" height="300" alt="NonRoot UI 3" style="border-radius: 8px; margin: 3px;">
+  <br>
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091812_AxManager.jpg" height="300" alt="NonRoot UI 4" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091824_AxManager.jpg" height="300" alt="NonRoot UI 5" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091838_AxManager.jpg" height="300" alt="NonRoot UI 6" style="border-radius: 8px; margin: 3px;">
 </div>
 
 ---
@@ -80,9 +94,10 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 
 1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
 2.  **Install** via your preferred manager:
-    * *Root/NonRoot Users:* Flash the `.zip` file in Magisk/KSU/APatch/Axeron app.
-3.  **Reboot** your device to initialize the daemon. **NonRoot** no need to reboot.
-5.  **Access** the dashboard via the WebUI or manager interface to configure your profile.
+    * *Root Users:* Flash the `.zip` file in Magisk/KSU/APatch app.
+    * *Non-Root Users:* Import the module into Axeron Manager.
+3.  **Reboot** your device to initialize the daemon.
+4.  **Access** the dashboard via the WebUI or manager interface to configure your profiles.
 
 ---
 
@@ -94,6 +109,6 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 <div align="center">
   <p>If you find this project useful, consider supporting the development.</p>
   <a href="https://github.com/kanaodnd/DonateMePls">
-    <img src="https://img.shields.io/badge/Support-Donate-FF4D4D?style=flat&logo=ko-fi&logoColor=white&labelColor=24292e" alt="Donate">
+    <img src="https://img.shields.io/badge/SUPPORT-DONATE-FF4D4D?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=1a1b26" alt="Donate">
   </a>
 </div>
