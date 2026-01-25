@@ -44,7 +44,7 @@ Stellar provides granular control over system parameters through its active daem
 * **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
 * **Governor Custom:** Optimization of CPU governor parameters for efficient step-scaling.
 
-### AI Driven 3 Profiler
+### Basic AI Driven 3 Profiler
 Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
 
 1.  **GAMING**
