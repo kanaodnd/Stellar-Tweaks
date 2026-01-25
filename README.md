@@ -9,19 +9,19 @@
   <br><br>
 
   <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
-    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=for-the-badge&color=7050ff&labelColor=1a1b26&logo=github&logoColor=white" alt="Release">
+    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat-square&color=7050ff&label=Release" alt="Release">
   </a>
   &nbsp;
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/LICENSE-APACHE--2.0-blue?style=for-the-badge&color=007bff&labelColor=1a1b26&logo=apache&logoColor=white" alt="License">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square&color=007bff" alt="License">
   </a>
   &nbsp;
   <a href="https://t.me/hosshi_prjkt">
-    <img src="https://img.shields.io/badge/TELEGRAM-CHANNEL-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Channel">
+    <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Channel">
   </a>
   &nbsp;
   <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/TELEGRAM-GROUP-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Group">
+    <img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Group">
   </a>
 
 </div>
@@ -113,6 +113,6 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 <div align="center">
   <p>If you find this project useful, consider supporting the development.</p>
   <a href="https://github.com/kanaodnd/DonateMePls">
-    <img src="https://img.shields.io/badge/SUPPORT-DONATE-FF4D4D?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=1a1b26" alt="Donate">
+    <img src="https://img.shields.io/badge/SUPPORT-DONATE-FF4D4D?style=flat-square&logo=ko-fi&logoColor=white&labelColor=1a1b26" alt="Donate">
   </a>
 </div>
