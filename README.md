@@ -1,27 +1,29 @@
-# ✨ Stellar Tweaks 
-*A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~*
-
 <div align="center">
   <img src="https://github.com/kanaodnd/kanaokturu/raw/main/a740af124b50737a86e4c4782ed9c4c7.jpg" alt="Stellar Banner" width="100%" style="border-radius: 8px;">
-  <br><br>
-
-  <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
-    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=for-the-badge&color=7050ff&labelColor=1a1b26&logo=github&logoColor=white" alt="Latest Release">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/LICENSE-APACHE--2.0-blue?style=for-the-badge&color=007bff&labelColor=1a1b26&logo=apache&logoColor=white" alt="License">
-  </a>
-  <img src="https://img.shields.io/badge/WRITTEN_IN-RUST-orange?style=for-the-badge&color=ff7f50&labelColor=1a1b26&logo=rust&logoColor=white" alt="Written in Rust">
-  
-  <br>
-
-  <a href="https://t.me/hosshi_prjkt">
-    <img src="https://img.shields.io/badge/TELEGRAM-CHANNEL-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Channel">
-  </a>
-  <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/TELEGRAM-GROUP-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Group">
-  </a>
 </div>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="60%">
+      <h1>✨ Stellar Tweaks</h1>
+      <i>A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~</i>
+    </td>
+    <td align="right" valign="center">
+      <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
+        <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=for-the-badge&color=7050ff&labelColor=1a1b26&logo=github&logoColor=white" alt="Release">
+      </a>
+      <a href="LICENSE">
+        <img src="https://img.shields.io/badge/LICENSE-APACHE--2.0-blue?style=for-the-badge&color=007bff&labelColor=1a1b26&logo=apache&logoColor=white" alt="License">
+      </a>
+      <a href="https://t.me/hosshi_prjkt">
+        <img src="https://img.shields.io/badge/TELEGRAM-CHANNEL-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Channel">
+      </a>
+      <a href="https://t.me/hosshi_chat">
+        <img src="https://img.shields.io/badge/TELEGRAM-GROUP-26A5E4?style=for-the-badge&color=26A5E4&labelColor=1a1b26&logo=telegram&logoColor=white" alt="Group">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
