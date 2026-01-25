@@ -72,7 +72,7 @@ Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, 
 
 <br>
 
-### Non-Root Environment (Axeron)
+### Non-Root Environment
 <div align="center">
   <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091656_AxManager.jpg" width="30%" alt="NonRoot Dashboard" style="border-radius: 6px; margin: 3px;">
   <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091649_AxManager.jpg" width="30%" alt="NonRoot Settings" style="border-radius: 6px; margin: 3px;">
