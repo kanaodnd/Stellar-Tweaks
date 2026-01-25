@@ -55,21 +55,27 @@ Stellar utilizes an intelligent engine to switch between three distinct modes ba
 
 ## UI Preview
 
-Experience a modern material you and intuitive control panel designed for ease of use.
+Experience a modern and intuitive control panel designed for ease of use.
 
-### Root Environment (Magisk/KernelSU/APatch)
+### Root Environment
 <div align="center">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260123_204214_AxManager.jpg" height="300" alt="Root Dashboard" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_195618_AxManager.jpg" height="300" alt="Root Settings" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshots/Screenshot_20260121_193835_WebUI%20X.jpg" height="300" alt="Root WebUI" style="border-radius: 8px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184447_WebUI%20X.jpg" width="45%" alt="Root Dashboard" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184139_WebUI%20X.jpg" width="45%" alt="Root Settings" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184120_WebUI%20X.jpg" width="45%" alt="Root Profiling" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184106_WebUI%20X.jpg" width="45%" alt="Root Tools" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184058_WebUI%20X.jpg" width="45%" alt="Root About" style="border-radius: 8px; margin: 5px;">
 </div>
 
 <br>
 
 ### Non-Root Environment (Axeron)
 <div align="center">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" height="300" alt="NonRoot UI 1" style="border-radius: 8px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" height="300" alt="NonRoot UI 2" style="border-radius: 8px; margin: 3px;"></div>
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091656_AxManager.jpg" width="45%" alt="NonRoot Dashboard" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091649_AxManager.jpg" width="45%" alt="NonRoot Settings" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" width="45%" alt="NonRoot Tools" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" width="45%" alt="NonRoot Profiling" style="border-radius: 8px; margin: 5px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091719_AxManager.jpg" width="45%" alt="NonRoot About" style="border-radius: 8px; margin: 5px;">
+</div>
 
 ---
 
