@@ -48,12 +48,11 @@ Stellar provides granular control over system parameters through its active daem
 Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
 
 1.  **GAMING**
-    * Prioritizes sustained performance, stabilizes FPS, and minimizes jitter for competitive gameplay.
+    * Engages a deterministic performance envelope. Prioritizes consistent GPU/CPU throughput, enforces thread-priority policies, and manages thermal headroom to eliminate performance volatility.
 2.  **POWERSAVER**
-    * Maximizes battery life by aggressively limiting background activities and clock speeds during inactivity.
+    * Implements aggressive non-critical process suspension and fine-grained clock gating. Maximizes battery longevity by enforcing strict QoS (Quality of Service) tiers on background subsystems.
 3.  **BALANCE**
-    * The optimal middle ground for daily usage, scaling performance up instantaneously only when necessary.
-
+    * Utilizes a predictive, on-demand scaling architecture. Operates at a minimal power floor, then performs instantaneous, workload-aware frequency and core allocation to meet demand spikes without hysteresis.
 ---
 
 ## UI Preview
@@ -98,10 +97,9 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 
 1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
 2.  **Install** via your preferred manager:
-    * *Root Users:* Flash the `.zip` file in Magisk/KSU/APatch app.
-    * *Non-Root Users:* Import the module into Axeron Manager.
-3.  **Reboot** your device to initialize the daemon.
-4.  **Access** the dashboard via the WebUI or manager interface to configure your profiles.
+    * *Rooted/Unrooted User:* Flash the `.zip` file in Manager app.
+3.  **Reboot (For Rooted Only)** your device to initialize the daemon.
+4.  **Access** the dashboard via Manager interface to configure your preference.
 
 ---
 
@@ -111,8 +109,11 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 * **Discussion:** Join our Telegram group for support and feature requests.
 
 <div align="center">
-  <p>If you find this project useful, consider supporting the development.</p>
-  <a href="https://github.com/kanaodnd/DonateMePls">
-    <img src="https://img.shields.io/badge/SUPPORT-DONATE-FF4D4D?style=flat-square&logo=ko-fi&logoColor=white&labelColor=1a1b26" alt="Donate">
-  </a>
+
+**If this project has been helpful to you, consider giving it a star ⭐**
+
+<p align="center">
+  <code>✦ "From me, to you, years from now." ✦</code>
+</p>
+
 </div>
