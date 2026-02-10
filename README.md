@@ -28,11 +28,11 @@
 
 ---
 
-## Overview
+## What "Stellar" about?
 
-**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust daemon**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
 
-## Key Features
+## Main Features
 
 Stellar provides granular control over system parameters through its active daemon and modern WebUI interface.
 
@@ -90,7 +90,7 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 | Environment | Supported Managers | Capability Level |
 | :--- | :--- | :--- |
 | **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors, Bypass Charging) |
-| **Non-Root** | • Axeron Manager | **User-space Optimization**<br>(AI Engine, UI Customization, System Properties) |
+| **Non-Root** | • Axeron Manager | **Regular Optimization**<br>(AI Engine, Device Configuration, System Properties) |
 
 ---
 
