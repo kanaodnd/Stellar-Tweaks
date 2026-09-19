@@ -3,10 +3,8 @@
   
   <br>
 
-  <h1>✨ Stellar Tweaks</h1>
-  <i>A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~</i>
-  
-  <br><br>
+  <h1>Stellar Tweaks</h1>
+  <p><b>Intelligent Performance & Energy Orchestration Engine for Android</b></p>
 
   <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
     <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat-square&color=7050ff&label=Release" alt="Release">
@@ -28,37 +26,86 @@
 
 ---
 
-## What "Stellar" about?
+## Overview
 
-**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+Most traditional Android optimization tools rely on static shell scripts, aggressive throttling, or continuous `dumpsys` polling loops that consume CPU resources and introduce frame volatility.
 
-## Main Features
+**Stellar Tweaks** is a deterministic orchestration engine engineered in **Rust** with native Android framework integration. It operates silently in userspace and kernelspace to dynamically align system resources, rendering pipelines, and hardware governors with real-time application demands across Qualcomm Snapdragon, MediaTek, Samsung Exynos, and Unisoc platforms.
 
-Stellar provides granular control over system parameters through its active daemon and modern WebUI interface.
+> [!WARNING]
+> Stellar directly orchestrates low-level kernel subsystems, CPU/GPU governors, and Dynamic Voltage and Frequency Scaling (DVFS). To prevent parameter collisions and ensure deterministic scheduling, avoid running concurrent third-party performance modules or conflicting optimizer scripts.
 
-### Core Capabilities
-* **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
-* **CPU/GPU Clocking:** Dynamic frequency management to prevent throttling and ensure stability.
-* **Specific Device System Constant:** Optimized property values tailored for system responsiveness.
-* **DVFS Custom Rule:** Userspace-controlled Dynamic Voltage and Frequency Scaling for precise thermal and performance management.
-* **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
-* **Governor Custom:** Optimization of CPU governor parameters for efficient step-scaling.
-
-### Basic AI Driven 3 Profiler
-Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
-
-1.  **GAMING**
-    * Engages a deterministic performance envelope. Prioritizes consistent GPU/CPU throughput, enforces thread-priority policies, and manages thermal headroom to eliminate performance volatility.
-2.  **POWERSAVER**
-    * Implements aggressive non-critical process suspension and fine-grained clock gating. Maximizes battery longevity by enforcing strict QoS (Quality of Service) tiers on background subsystems.
-3.  **BALANCE**
-    * Utilizes a predictive, on-demand scaling architecture. Operates at a minimal power floor, then performs instantaneous, workload-aware frequency and core allocation to meet demand spikes without hysteresis.
 ---
 
-## UI Preview
+## Key Features
 
-**Experience the Next-Gen Interface.**
-Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, adaptive, and modern control panel. Designed for clarity and aesthetics, it makes complex system tuning intuitive and visually stunning.
+<details open>
+<summary><b>1. Fast Energy Aware Scheduling (FEAS)</b></summary>
+<br>
+
+* **Dynamic Frame Awareness:** Monitors render thread throughput in real time, scaling hardware frequency curves to prevent frame drops during sudden rendering spikes.
+* **Cluster-Aware Thread Affinity:** Directs high-priority threads (such as `RenderThread` and game engine threads) to Prime and Big CPU cores, while offloading background tasks to efficiency clusters.
+* **Cooperative Idle Snapping:** Smoothly transitions hardware into low-power states during global inactivity without relying on evdev polling loops.
+</details>
+
+<details open>
+<summary><b>2. Hardware & Power Orchestration</b></summary>
+<br>
+
+* **Custom GPU Governors:** Independent GPU governor configuration per profile (`Powersaving`, `Balanced`, `Gaming`) across Adreno, Mali, Devfreq, and KGSL architectures.
+* **Dynamic I/O Scheduling:** Context-sensitive block I/O scheduling backed by cached hardware device mapping to eliminate storage hitching.
+* **Advanced DVFS & Power Management:** Granular userspace frequency limits that balance power draw and sustained performance during heavy workloads.
+* **Bypass Charging (Idle Battery State):** Allows supported hardware to draw power directly from the charger without routing current into the battery cell, significantly lowering thermal generation.
+* **Fast Charging Monitoring:** Maintains stable charging throughput while respecting safety boundaries.
+</details>
+
+<details open>
+<summary><b>3. Display & Visual Synchronization</b></summary>
+<br>
+
+* **Multi-Vendor Display Controller:** Integrated support for Xiaomi, Samsung, Transsion (Infinix/Tecno), BBK/Oplus, and generic AOSP display interfaces.
+* **Force Refresh Rate Mode:** Overrides vendor display lockouts when standard Android display managers fail to engage high refresh rates.
+* **Battery-Saver Refresh Limiter:** Automatically locks the display panel to 60Hz whenever the Android Battery Saver mode engages.
+</details>
+
+<details open>
+<summary><b>4. Framework Integration & Utilities</b></summary>
+<br>
+
+* **Device Identity Spoofing:** Built-in system-level device spoofing profiles to unlock 90/120 FPS configurations in supported titles.
+* **System Native Notifications:** Emits clean `<App Label> • Optimized` toast alerts natively without requiring overlay or floating window permissions.
+* **Modular Component Uninstaller:** Granular cleanup subroutines allowing users to selectively remove configuration directories (`clean config`) or revert hardware tweaks (`clean tweaks`).
+* **Self-Healing Boot Configuration:** Automatically detects panel refresh rates on initial startup and generates valid defaults without user intervention.
+</details>
+
+---
+
+## Operational Profiles
+
+Stellar automatically transitions across three standard operational profiles based on your active usage:
+
+| Profile | Primary Use Case | System Behavior |
+| :--- | :--- | :--- |
+| **Gaming** | Active gameplay & heavy render workloads | Enforces consistent performance, sets gaming hardware governors, activates bypass charging, and minimizes background interruptions. |
+| **Balanced** | Daily usage, social media & multitasking | Delivers smooth responsiveness for everyday tasks while maintaining balanced power consumption and cooler device operation. |
+| **Powersaver** | Low battery & emergency endurance | Caps background power draw, locks the display refresh rate to 60Hz, and shifts hardware governors to maximize battery life. |
+
+---
+
+## Stellar Pro (Exclusive Tier)
+
+Stellar provides an **Exclusive / Pro Tier** designed for users who want to actively support project research and continuous development.
+
+### Concept & Decision Intelligence
+The Pro tier serves as an elevated decision intelligence layer within the daemon, offering refined automated decision-making and enhanced operational control. Supporting the project directly aids in testing across real hardware devices, maintaining kernel compatibility, and driving continuous development updates.
+
+For tier activation details and donation options, visit the [Stellar Project Support Notice](https://t.me/hosshi_prjkt/644).
+
+---
+
+## User Interface Preview
+
+Powered by **Material You 3 (M3)** design principles, the Stellar WebUI provides an intuitive, dark-surface control interface. Compiled into a single-file distribution, it requires zero external downloads and functions completely offline.
 
 ### Root Environment
 <div align="center">
@@ -84,36 +131,64 @@ Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, 
 
 ## Supported Environments
 
-Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments with varying degrees of control.
-
-| Environment | Supported Managers | Capability Level |
+| Environment | Supported Managers | Capability Scope |
 | :--- | :--- | :--- |
-| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors, Bypass Charging) |
-| **Non-Root** | • Axeron Manager | **Regular Optimization**<br>(AI Engine, Device Configuration, System Properties) |
+| **Root** | • KernelSU<br>• Magisk<br>• APatch | **Full Hardware & Framework Access**<br>Direct kernel tweaking, FEAS scheduling, CPU/GPU governors, I/O schedulers, display overrides, bypass charging, and hardware caches. |
+| **Non-Root** | • Axeron Manager | **Userspace Optimization**<br>Dynamic app profiling, system properties, userspace priority tuning, and visual dashboards. |
+
+> [!NOTE]
+> Root access grants complete control over sysfs nodes and hardware governors. On non-rooted environments via Axeron Manager, Stellar operates within userspace privilege boundaries without modifying low-level kernel nodes.
+
+---
+
+## Command-Line Interface
+
+The `stellar-daemon` binary provides straightforward terminal commands:
+
+```bash
+# Start the orchestration daemon in foreground
+stellar-daemon start
+
+# Query runtime diagnostics and active operational mode
+stellar-daemon stats
+
+# Modular component cleanup
+stellar-daemon clean tweaks    # Revert kernel parameters and display locks to defaults
+stellar-daemon clean config    # Remove configuration and applist files
+stellar-daemon clean all       # Full rollback: revert tweaks, delete configs, stop daemon
+```
 
 ---
 
 ## Installation
 
-1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
-2.  **Install** via your preferred manager:
-    * *Rooted/Unrooted User:* Flash the `.zip` file in Manager app.
-3.  **Reboot (For Rooted Only)** your device to initialize the daemon.
-4.  **Access** the dashboard via Manager interface to configure your preference.
+1. **Download** the latest release package from the [Releases](https://github.com/kanaodnd/Stellar-Tweaks/releases) page.
+2. **Install** via your preferred module manager:
+   * **Root:** Flash the `.zip` archive in KernelSU, Magisk, or APatch.
+   * **Non-Root:** Import the module through Axeron Manager.
+3. **Reboot** your device (Root only) to initialize the daemon and allow automated hardware mapping.
+4. **Launch** the WebUI dashboard from your manager to customize preferences.
+
+---
+
+## Credits & References
+
+Acknowledgement and appreciation to the following developers whose open-source tools, technical research, and concepts served as valuable references during the development of Stellar:
+
+* **Rem01Gaming**
+* **Notzeeta**
+* **HoyoSlave**
+* **Zesxhia**
 
 ---
 
 ## Community & Support
 
-* **Bug Reports:** Please submit issues via [GitHub Issues](https://github.com/kanaodnd/Stellar-Tweaks/issues).
-* **Discussion:** Join our Telegram group for support and feature requests.
+* **Issue Tracking:** Submit bug reports or technical inquiries via [GitHub Issues](https://github.com/kanaodnd/Stellar-Tweaks/issues).
+* **Community Channels:** Join the [Telegram Channel](https://t.me/hosshi_prjkt) and [Telegram Group](https://t.me/hosshi_chat) for announcements, discussions, and release builds.
 
 <div align="center">
 
-**If this project has been helpful to you, consider giving it a star ⭐**
-
-<p align="center">
-  <code>✦ "From me, to you, years from now." ✦</code>
-</p>
+**If you find Stellar Tweaks useful, consider starring the repository.**
 
 </div>
